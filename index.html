@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>折り紙・切り紙パターンデータベース</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div class="hero-top">
+        <div>
+          <div class="eyebrow">Origami / Kirigami Pattern Database</div>
+          <h1>パターン検索システム</h1>
+          <p>
+            折り紙・切り紙パターンを、カテゴリー、ファミリー、基本パターン、派生パターンごとに整理したデータベースです。
+            画像を追加する場合は、<b>data.json</b> の各パターンに <b>imageUrl</b> を追加してください。
+            例：<b>"imageUrl": "images/miura.jpg"</b>
+          </p>
+          <div class="hero-actions">
+            <span class="pill">カテゴリー別フィルター</span>
+            <span class="pill">ファミリー別フィルター</span>
+            <span class="pill">基本パターン別フィルター</span>
+            <span class="pill">キーワード検索</span>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><strong id="statRecords">0</strong><span>パターン数</span></div>
+          <div class="stat"><strong id="statCategories">0</strong><span>カテゴリー数</span></div>
+          <div class="stat"><strong id="statFamilies">0</strong><span>ファミリー数</span></div>
+          <div class="stat"><strong id="statBase">0</strong><span>基本パターン数</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="panel sidebar">
+        <div class="sidebar-section">
+          <div class="section-title">検索</div>
+          <input id="searchInput" class="control" type="search" placeholder="Miura, tube, deployable, 宇宙..." />
+        </div>
+
+        <div class="sidebar-section">
+          <div class="section-title">フィルター</div>
+          <div class="filter-grid">
+            <select id="categoryFilter" class="control"></select>
+            <select id="familyFilter" class="control"></select>
+            <select id="baseFilter" class="control"></select>
+
+            <select id="thesisFilter" class="control">
+              <option value="">修士研究での使用：すべて</option>
+              <option value="Yes">UseInMainThesis: Yes</option>
+              <option value="No">UseInMainThesis: No</option>
+            </select>
+
+            <select id="realFilter" class="control">
+              <option value="">実在パターン：すべて</option>
+              <option value="Yes">Real pattern: Yes</option>
+              <option value="No">Real pattern: No</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <div class="section-title">優先度</div>
+          <div class="btn-row" id="priorityButtons"></div>
+        </div>
+
+        <div class="sidebar-section">
+          <button class="reset-btn" id="resetBtn">フィルターをリセット</button>
+        </div>
+
+        
+      </aside>
+
+      <section class="panel content">
+        <div class="toolbar">
+          <div class="toolbar-left">
+            <h2 id="resultTitle">すべてのパターン</h2>
+            <p id="resultMeta">読み込み中...</p>
+          </div>
+
+          <select id="sortSelect" class="control sort-control">
+            <option value="priority">並び替え：優先度</option>
+            <option value="name">並び替え：名称</option>
+            <option value="family">並び替え：ファミリー</option>
+            <option value="base">並び替え：基本パターン</option>
+          </select>
+        </div>
+
+        <div class="cards" id="cards"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div>
+          <h3 id="modalTitle"></h3>
+          <p id="modalSubtitle"></p>
+        </div>
+        <button class="close-btn" id="closeModal">×</button>
+      </div>
+
+      <div class="modal-body">
+        <div>
+          <div class="modal-image" id="modalImage"></div>
+          <div class="copy-box">
+            画像は <b>data.json</b> から追加できます。
+            例：<b>"imageUrl": "images/miura.jpg"</b><br>
+            画像ファイルは <b>images</b> フォルダに入れてください。
+          </div>
+        </div>
+
+        <div class="detail-grid" id="modalDetails"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

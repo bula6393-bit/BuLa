@@ -1,0 +1,3115 @@
+{
+  "metadata": {
+    "source_file": "data.xlsx",
+    "sheet": "Hierarchical_117",
+    "record_count": 117,
+    "fields": [
+      "RecordID",
+      "SuperCategory",
+      "FamilyID",
+      "Family",
+      "BasePattern",
+      "VariantName",
+      "EntryLayer",
+      "VariantType",
+      "IsRealPattern",
+      "GeometryType",
+      "Function",
+      "Application",
+      "Priority",
+      "UseInMainThesis",
+      "ThesisRole",
+      "SourceKey",
+      "HierarchyPath",
+      "OldFamily",
+      "OldSortGroup"
+    ]
+  },
+  "super_categories": [
+    {
+      "name": "Core origami / 基本折り紙",
+      "families": [
+        {
+          "family_id": "F-MIU",
+          "family": "Miura系",
+          "base_patterns": [
+            {
+              "base_pattern": "Miura",
+              "variants": [
+                {
+                  "RecordID": "O-001",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-MIU",
+                  "Family": "Miura系",
+                  "BasePattern": "Miura",
+                  "VariantName": "Miura-Ori / ミウラ折り",
+                  "EntryLayer": "1 Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "平行四辺形テセレーション",
+                  "Function": "1DOF・flat-foldable・deployable",
+                  "imageUrl":"images/miura1.jpg",
+                  "Application": "宇宙構造・地図・ソーラーセイル",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S06/S12/S21",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Miura系 > Miura > Miura-Ori / ミウラ折り",
+                  "OldFamily": "Miura系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                },
+                {
+                  "RecordID": "O-002",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-MIU",
+                  "Family": "Miura系",
+                  "BasePattern": "Miura",
+                  "VariantName": "Generalized Miura-Ori / 一般化ミウラ折り",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Geometric variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "拡張Miura",
+                  "Function": "曲面化・形状適合",
+                  "Application": "建築表皮・可変パネル",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S06",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Miura系 > Miura > Generalized Miura-Ori / 一般化ミウラ折り",
+                  "OldFamily": "Miura系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-TMI",
+          "family": "Tachi-Miura系",
+          "base_patterns": [
+            {
+              "base_pattern": "Tachi-Miura",
+              "variants": [
+                {
+                  "RecordID": "O-003",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-TMI",
+                  "Family": "Tachi-Miura系",
+                  "BasePattern": "Tachi-Miura",
+                  "VariantName": "Tachi-Miura polyhedron / 舘ミウラ多面体",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Variant pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "多面体折り紙",
+                  "Function": "Poisson比・3D変形制御",
+                  "Application": "3Dメタマテリアル・展開構造",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S18/S21",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Tachi-Miura系 > Tachi-Miura > Tachi-Miura polyhedron / 舘ミウラ多面体",
+                  "OldFamily": "Tachi-Miura系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-WAT",
+          "family": "Waterbomb系",
+          "base_patterns": [
+            {
+              "base_pattern": "Waterbomb",
+              "variants": [
+                {
+                  "RecordID": "O-004",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-WAT",
+                  "Family": "Waterbomb系",
+                  "BasePattern": "Waterbomb",
+                  "VariantName": "Waterbomb base / ウォーターボム基礎形",
+                  "EntryLayer": "Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "基本折り",
+                  "Function": "flat-foldable・unit化",
+                  "Application": "ステント・展開構造",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S06",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Waterbomb系 > Waterbomb > Waterbomb base / ウォーターボム基礎形",
+                  "OldFamily": "Waterbomb系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                },
+                {
+                  "RecordID": "O-005",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-WAT",
+                  "Family": "Waterbomb系",
+                  "BasePattern": "Waterbomb",
+                  "VariantName": "Preliminary base / 予備基礎形",
+                  "EntryLayer": "Base pattern / 基本パターン",
+                  "VariantType": "Related base / dual pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "基本折り",
+                  "Function": "Waterbombと双対",
+                  "Application": "教育・折り紙幾何",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S06",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Waterbomb系 > Waterbomb > Preliminary base / 予備基礎形",
+                  "OldFamily": "Waterbomb系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-SQT",
+          "family": "Square-twist系",
+          "base_patterns": [
+            {
+              "base_pattern": "Square-twist",
+              "variants": [
+                {
+                  "RecordID": "O-006",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-SQT",
+                  "Family": "Square-twist系",
+                  "BasePattern": "Square-twist",
+                  "VariantName": "Square-twist pattern / スクエアツイスト",
+                  "EntryLayer": "Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "ツイスト折り",
+                  "Function": "複数M/V assignment",
+                  "Application": "メタマテリアル・構造探索",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S04/S21",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Square-twist系 > Square-twist > Square-twist pattern / スクエアツイスト",
+                  "OldFamily": "Twist系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-FLA",
+          "family": "Flasher系",
+          "base_patterns": [
+            {
+              "base_pattern": "Flasher",
+              "variants": [
+                {
+                  "RecordID": "O-007",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-FLA",
+                  "Family": "Flasher系",
+                  "BasePattern": "Flasher",
+                  "VariantName": "Flasher origami / フラッシャー折り",
+                  "EntryLayer": "Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "放射状展開",
+                  "Function": "コンパクト収納・大面積展開",
+                  "Application": "アンテナ・宇宙通信",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S09/S18",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Flasher系 > Flasher > Flasher origami / フラッシャー折り",
+                  "OldFamily": "Flasher系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                },
+                {
+                  "RecordID": "O-008",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-FLA",
+                  "Family": "Flasher系",
+                  "BasePattern": "Flasher",
+                  "VariantName": "Modified flasher pattern / 改良フラッシャーパターン",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Geometric variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "放射状派生",
+                  "Function": "wrapped shapeから展開",
+                  "Application": "展開センサー・宇宙薄膜",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S18",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Flasher系 > Flasher > Modified flasher pattern / 改良フラッシャーパターン",
+                  "OldFamily": "Flasher系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-FLX",
+          "family": "Flexagon系",
+          "base_patterns": [
+            {
+              "base_pattern": "Flexagon",
+              "variants": [
+                {
+                  "RecordID": "O-009",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-FLX",
+                  "Family": "Flexagon系",
+                  "BasePattern": "Flexagon",
+                  "VariantName": "Flexagon / フレクサゴン",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Variant pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "反転平面機構",
+                  "Function": "表示面切替",
+                  "Application": "教育・可変表示",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S06",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Flexagon系 > Flexagon > Flexagon / フレクサゴン",
+                  "OldFamily": "Flexagon系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-KAL",
+          "family": "Kaleidocycle系",
+          "base_patterns": [
+            {
+              "base_pattern": "Kaleidocycle",
+              "variants": [
+                {
+                  "RecordID": "O-010",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-KAL",
+                  "Family": "Kaleidocycle系",
+                  "BasePattern": "Kaleidocycle",
+                  "VariantName": "Hexaflexahedron / Hexagonal kaleidocycle / ヘキサフレクサヘドロン",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Variant pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "回転リング機構",
+                  "Function": "連続回転",
+                  "Application": "機構設計・教育",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S06",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Kaleidocycle系 > Kaleidocycle > Hexaflexahedron / Hexagonal kaleidocycle / ヘキサフレクサヘドロン",
+                  "OldFamily": "Kaleidocycle系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-FRA",
+          "family": "Fractal / Dragon curve系",
+          "base_patterns": [
+            {
+              "base_pattern": "Dragon curve",
+              "variants": [
+                {
+                  "RecordID": "O-011",
+                  "SuperCategory": "Core origami / 基本折り紙",
+                  "FamilyID": "F-FRA",
+                  "Family": "Fractal / Dragon curve系",
+                  "BasePattern": "Dragon curve",
+                  "VariantName": "Dragon curve folding / ドラゴンカーブ折り",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Variant pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "フラクタル折り",
+                  "Function": "フラクタル幾何",
+                  "Application": "数学教育・幾何デザイン",
+                  "Priority": 4,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S06",
+                  "HierarchyPath": "Core origami / 基本折り紙 > Fractal / Dragon curve系 > Dragon curve > Dragon curve folding / ドラゴンカーブ折り",
+                  "OldFamily": "Fractal系",
+                  "OldSortGroup": "Core origami / 基本折り紙"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "20 Tubular origami / 筒状折り紙",
+      "families": [
+        {
+          "family_id": "F-MIU",
+          "family": "Miura系",
+          "base_patterns": [
+            {
+              "base_pattern": "Miura tube",
+              "variants": [
+                {
+                  "RecordID": "T-001",
+                  "SuperCategory": "Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-MIU",
+                  "Family": "Miura系",
+                  "BasePattern": "Miura tube",
+                  "VariantName": "Miura-ori tube / ミウラ折りチューブ",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "筒状折り紙",
+                  "Function": "負のPoisson比・deployability",
+                  "Application": "ロボットアーム・展開チューブ",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "Tubular origami / 筒状折り紙 > Miura系 > Miura tube > Miura-ori tube / ミウラ折りチューブ",
+                  "OldFamily": "Miura tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-002",
+                  "SuperCategory": "Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-MIU",
+                  "Family": "Miura系",
+                  "BasePattern": "Miura tube",
+                  "VariantName": "Periodically rotated Miura-ori tube / 周期回転ミウラ折りチューブ",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "波動制御チューブ",
+                  "Function": "band gap tuning",
+                  "Application": "振動絶縁・waveguide",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S14",
+                  "HierarchyPath": "Tubular origami / 筒状折り紙 > Miura系 > Miura tube > Periodically rotated Miura-ori tube / 周期回転ミウラ折りチューブ",
+                  "OldFamily": "Miura tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-003",
+                  "SuperCategory": "Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-MIU",
+                  "Family": "Miura系",
+                  "BasePattern": "Miura tube",
+                  "VariantName": "Connected non-rotated and rotated Miura-ori tube / 回転・非回転接続ミウラチューブ",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "ハイブリッドチューブ",
+                  "Function": "局所運動モード",
+                  "Application": "低周波振動制御",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S14",
+                  "HierarchyPath": "Tubular origami / 筒状折り紙 > Miura系 > Miura tube > Connected non-rotated and rotated Miura-ori tube / 回転・非回転接続ミウラチューブ",
+                  "OldFamily": "Miura tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-004",
+                  "SuperCategory": "Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-MIU",
+                  "Family": "Miura系",
+                  "BasePattern": "Miura tube",
+                  "VariantName": "Slit Miura-ori bellow / スリット入りミウラ折りベローズ",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Geometric variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "スリット付きベローズ",
+                  "Function": "軸剛性・安定性調整",
+                  "Application": "可変剛性チューブ",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "Tubular origami / 筒状折り紙 > Miura系 > Miura tube > Slit Miura-ori bellow / スリット入りミウラ折りベローズ",
+                  "OldFamily": "Miura tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-005",
+                  "SuperCategory": "Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-MIU",
+                  "Family": "Miura系",
+                  "BasePattern": "Miura tube",
+                  "VariantName": "Asymmetric connected Miura-ori tube / 非対称接続ミウラ折りチューブ",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Geometric variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "非対称チューブ",
+                  "Function": "広帯域band gap tuning",
+                  "Application": "adaptive metamaterial",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S14",
+                  "HierarchyPath": "Tubular origami / 筒状折り紙 > Miura系 > Miura tube > Asymmetric connected Miura-ori tube / 非対称接続ミウラ折りチューブ",
+                  "OldFamily": "Miura tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-WAT",
+          "family": "Waterbomb系",
+          "base_patterns": [
+            {
+              "base_pattern": "Waterbomb tube",
+              "variants": [
+                {
+                  "RecordID": "T-006",
+                  "SuperCategory": "Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-WAT",
+                  "Family": "Waterbomb系",
+                  "BasePattern": "Waterbomb tube",
+                  "VariantName": "Waterbomb tube / ウォーターボムチューブ",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "筒状折り紙",
+                  "Function": "single-DOF・負のPoisson比",
+                  "Application": "soft gripper・medical device",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "Tubular origami / 筒状折り紙 > Waterbomb系 > Waterbomb tube > Waterbomb tube / ウォーターボムチューブ",
+                  "OldFamily": "Waterbomb tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-007",
+                  "SuperCategory": "Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-WAT",
+                  "Family": "Waterbomb系",
+                  "BasePattern": "Waterbomb tube",
+                  "VariantName": "Axial–twist coupled Waterbomb tube / 軸ねじり連成ウォーターボムチューブ",
+                  "EntryLayer": "Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "変形連成チューブ",
+                  "Function": "軸圧縮とtwistを連成",
+                  "Application": "wave steering・programmable tube",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "Tubular origami / 筒状折り紙 > Waterbomb系 > Waterbomb tube > Axial–twist coupled Waterbomb tube / 軸ねじり連成ウォーターボムチューブ",
+                  "OldFamily": "Waterbomb tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-KRE",
+          "family": "Kresling系",
+          "base_patterns": [
+            {
+              "base_pattern": "Kresling",
+              "variants": [
+                {
+                  "RecordID": "T-008",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Conical Kresling Origami / 円錐型クレスリング折り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "円錐型Kresling",
+                  "Function": "multistability・energy landscape",
+                  "Application": "展開構造・ソフトロボット",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S19",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Conical Kresling Origami / 円錐型クレスリング折り紙",
+                  "OldFamily": "Kresling系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-009",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kresling I tube / クレスリングIチューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "多安定チューブ",
+                  "Function": "parallelogram sheetベース",
+                  "Application": "ロボット移動・電熱駆動",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kresling I tube / クレスリングIチューブ",
+                  "OldFamily": "Kresling tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-010",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kresling II tube / クレスリングIIチューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "葉脈型Kresling",
+                  "Function": "9 creases・partial flat folding",
+                  "Application": "biopsy robot・soft robot",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kresling II tube / クレスリングIIチューブ",
+                  "OldFamily": "Kresling tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-011",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kresling Origami Spring / クレスリング折り紙ばね",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "ばね構造",
+                  "Function": "多安定・ばね特性調整",
+                  "Application": "アクチュエータ・センサー",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kresling Origami Spring / クレスリング折り紙ばね",
+                  "OldFamily": "Kresling spring系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-012",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kresling pattern / クレスリングパターン",
+                  "EntryLayer": "1 Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "筒状折り紙",
+                  "Function": "axial–twist coupling・multi-stability",
+                  "Application": "ロボティクス・衝撃吸収",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S08/S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kresling pattern / クレスリングパターン",
+                  "OldFamily": "Kresling系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-013",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Conical Kresling origami frustum / 円錐台クレスリング",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "円錐台型",
+                  "Function": "bi-stability・pop-up state",
+                  "Application": "アンテナ・energy absorber",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Conical Kresling origami frustum / 円錐台クレスリング",
+                  "OldFamily": "Kresling系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-014",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kirigami / Flexigami Kresling spring / キリガミ・クレスリングばね",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "切り込み型KOS",
+                  "Function": "高耐久・初期弾性エネルギー低減",
+                  "Application": "蠕動ロボット・耐久型ばね",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kirigami / Flexigami Kresling spring / キリガミ・クレスリングばね",
+                  "OldFamily": "Kirigami-Kresling系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-015",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kresling Origami Spring Pair / クレスリングばねペア",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "直列接続",
+                  "Function": "chiralityで運動連成制御",
+                  "Application": "ロボット関節・伸縮機構",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kresling Origami Spring Pair / クレスリングばねペア",
+                  "OldFamily": "Kresling pair系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-016",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kresling corrugated tube / クレスリング波形チューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "波形チューブ",
+                  "Function": "twisting collapse・bending",
+                  "Application": "ロボットアーム・展開機構",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kresling corrugated tube / クレスリング波形チューブ",
+                  "OldFamily": "Kresling系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-017",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kresling honeycomb array / クレスリング蜂の巣アレイ",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Array / configuration",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "2D配列",
+                  "Function": "energy absorption調整",
+                  "Application": "crash protection",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kresling honeycomb array / クレスリング蜂の巣アレイ",
+                  "OldFamily": "Kresling array系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-018",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Modified Kresling I tube / 変形クレスリングIチューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Geometric variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "6折線Kresling",
+                  "Function": "追加diagonalでmulti-stability調整",
+                  "Application": "可変構造",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Modified Kresling I tube / 変形クレスリングIチューブ",
+                  "OldFamily": "Kresling tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-019",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Multi-triangle cylindrical origami / 多三角形円筒折り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Variant pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "三安定円筒",
+                  "Function": "tri-stable・zero stiffness",
+                  "Application": "programmable bending",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Multi-triangle cylindrical origami / 多三角形円筒折り紙",
+                  "OldFamily": "Kresling系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-020",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Perforated Kresling spring / 穴あき・ミシン目クレスリングばね",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "perforation crease",
+                  "Function": "crease compliance調整",
+                  "Application": "長寿命KOS",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Perforated Kresling spring / 穴あき・ミシン目クレスリングばね",
+                  "OldFamily": "Kresling crease系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-021",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Plain Kresling spring / 標準クレスリングばね",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "標準KOS",
+                  "Function": "基準ばね構造",
+                  "Application": "研究用モデル・衝撃吸収",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Plain Kresling spring / 標準クレスリングばね",
+                  "OldFamily": "Kresling spring系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-022",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Achiral / decoupled KOSP / 非カイラルKOSペア",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "非連成運動型",
+                  "Function": "上下運動と回転を分離",
+                  "Application": "直線アクチュエータ",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Achiral / decoupled KOSP / 非カイラルKOSペア",
+                  "OldFamily": "Kresling pair系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-023",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Chiral KOSP / カイラルKOSペア",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "連成運動型",
+                  "Function": "軸変位と回転が連成",
+                  "Application": "ねじりアクチュエータ",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Chiral KOSP / カイラルKOSペア",
+                  "OldFamily": "Kresling pair系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-024",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Double-perforation Kresling spring / 二重ミシン目クレスリングばね",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "高耐久KOS",
+                  "Function": "疲労耐性向上",
+                  "Application": "耐久型アクチュエータ",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Double-perforation Kresling spring / 二重ミシン目クレスリングばね",
+                  "OldFamily": "Kresling crease系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-025",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Kresling spring with vertex holes / 頂点穴付きクレスリングばね",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "応力緩和型KOS",
+                  "Function": "頂点応力集中を緩和",
+                  "Application": "疲労低減・剛性調整",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S08",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Kresling spring with vertex holes / 頂点穴付きクレスリングばね",
+                  "OldFamily": "Kresling crease系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-026",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-KRE",
+                  "Family": "Kresling系",
+                  "BasePattern": "Kresling",
+                  "VariantName": "Tiered / hourglass / fusiform Kresling arrays / 段状・砂時計・紡錘型クレスリングアレイ",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Array / configuration",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "配列派生型",
+                  "Function": "orientationで力学性能変化",
+                  "Application": "軽量保護構造",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Kresling系 > Kresling > Tiered / hourglass / fusiform Kresling arrays / 段状・砂時計・紡錘型クレスリングアレイ",
+                  "OldFamily": "Kresling array系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-ACC",
+          "family": "Accordion系",
+          "base_patterns": [
+            {
+              "base_pattern": "Accordion",
+              "variants": [
+                {
+                  "RecordID": "T-027",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-ACC",
+                  "Family": "Accordion系",
+                  "BasePattern": "Accordion",
+                  "VariantName": "Accordion tubular origami / アコーディオン型チューブ折り",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "筒状折り",
+                  "Function": "自己展開に向きやすい",
+                  "Application": "4Dプリント・リハビリ",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S07",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Accordion系 > Accordion > Accordion tubular origami / アコーディオン型チューブ折り",
+                  "OldFamily": "Accordion系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-YOS",
+          "family": "Yoshimura系",
+          "base_patterns": [
+            {
+              "base_pattern": "Yoshimura",
+              "variants": [
+                {
+                  "RecordID": "T-028",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Superimposed Yoshimura-based MUTOIS pattern / 重ね合わせ吉村型MUTOISパターン",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Variant pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "大型厚板構造",
+                  "Function": "均一厚・長尺化・荷重支持",
+                  "Application": "橋・柱・仮設建築",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S15",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Superimposed Yoshimura-based MUTOIS pattern / 重ね合わせ吉村型MUTOISパターン",
+                  "OldFamily": "Yoshimura-MUTOIS系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-029",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Yoshimura tubular origami / 吉村チューブ折り",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "筒状折り紙",
+                  "Function": "展開率・曲げ伸縮",
+                  "Application": "ロボティクス・宇宙展開",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S05/S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Yoshimura tubular origami / 吉村チューブ折り",
+                  "OldFamily": "Yoshimura系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-030",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Heterocellular Yoshimura tube / 異種セル型吉村チューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "異種セルチューブ",
+                  "Function": "標準セルと偏りセルの混合",
+                  "Application": "複合運動ロボット",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S05",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Heterocellular Yoshimura tube / 異種セル型吉村チューブ",
+                  "OldFamily": "Yoshimura tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-031",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Homocellular Yoshimura tube / 同種セル型吉村チューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "同種セルチューブ",
+                  "Function": "同一セル構成",
+                  "Application": "伸縮・曲げ・ねじり",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S05",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Homocellular Yoshimura tube / 同種セル型吉村チューブ",
+                  "OldFamily": "Yoshimura tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-032",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Left-biased Yoshimura cell / 左偏り吉村セル",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Cell variant / subunit",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "非対称セル",
+                  "Function": "左方向twist",
+                  "Application": "ねじり機構",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S05",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Left-biased Yoshimura cell / 左偏り吉村セル",
+                  "OldFamily": "Yoshimura cell系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-033",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Modified Yoshimura pattern / 変形吉村パターン",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Geometric variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "派生Yoshimura",
+                  "Function": "接続方式を変更",
+                  "Application": "robotic gripper・可変チューブ",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Modified Yoshimura pattern / 変形吉村パターン",
+                  "OldFamily": "Yoshimura系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-034",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Right-biased Yoshimura cell / 右偏り吉村セル",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Cell variant / subunit",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "非対称セル",
+                  "Function": "右方向twist",
+                  "Application": "方向制御ロボット",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S05",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Right-biased Yoshimura cell / 右偏り吉村セル",
+                  "OldFamily": "Yoshimura cell系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-035",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Self-reconfigurable Yoshimura tube / 自己再構成吉村チューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "多構成チューブ",
+                  "Function": "load-bearing/compliant切替",
+                  "Application": "adaptive tube",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Self-reconfigurable Yoshimura tube / 自己再構成吉村チューブ",
+                  "OldFamily": "Yoshimura系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                },
+                {
+                  "RecordID": "T-036",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-YOS",
+                  "Family": "Yoshimura系",
+                  "BasePattern": "Yoshimura",
+                  "VariantName": "Standard Yoshimura cell / 標準吉村セル",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Cell variant / subunit",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "対称セル",
+                  "Function": "中心軸対称",
+                  "Application": "標準Yoshimura tube",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S05",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Yoshimura系 > Yoshimura > Standard Yoshimura cell / 標準吉村セル",
+                  "OldFamily": "Yoshimura cell系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-POL",
+          "family": "Polygonal tube系",
+          "base_patterns": [
+            {
+              "base_pattern": "Polygonal tube",
+              "variants": [
+                {
+                  "RecordID": "T-037",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-POL",
+                  "Family": "Polygonal tube系",
+                  "BasePattern": "Polygonal tube",
+                  "VariantName": "Rigid foldable polygonal origami tube / 多角形折り紙チューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "多角形断面チューブ",
+                  "Function": "flat/rigid foldability",
+                  "Application": "建築・ロボット・pipeline",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Polygonal tube系 > Polygonal tube > Rigid foldable polygonal origami tube / 多角形折り紙チューブ",
+                  "OldFamily": "Tubular系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-SPT",
+          "family": "Spiral tube系",
+          "base_patterns": [
+            {
+              "base_pattern": "Spiral tube",
+              "variants": [
+                {
+                  "RecordID": "T-038",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-SPT",
+                  "Family": "Spiral tube系",
+                  "BasePattern": "Spiral tube",
+                  "VariantName": "Rigid foldable spiral origami tube / スパイラル折り紙チューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "螺旋チューブ",
+                  "Function": "spiral deployment",
+                  "Application": "deployable boom・antenna",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Spiral tube系 > Spiral tube > Rigid foldable spiral origami tube / スパイラル折り紙チューブ",
+                  "OldFamily": "Tubular系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-ZIP",
+          "family": "Zipper tube系",
+          "base_patterns": [
+            {
+              "base_pattern": "Zipper tube",
+              "variants": [
+                {
+                  "RecordID": "T-039",
+                  "SuperCategory": "20 Tubular origami / 筒状折り紙",
+                  "FamilyID": "F-ZIP",
+                  "Family": "Zipper tube系",
+                  "BasePattern": "Zipper tube",
+                  "VariantName": "Locking zipper-coupled origami tube / ロック付きジッパー結合折り紙チューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "結合チューブ",
+                  "Function": "ロックで剛性調整",
+                  "Application": "crash absorber・deployable tube",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "20 Tubular origami / 筒状折り紙 > Zipper tube系 > Zipper tube > Locking zipper-coupled origami tube / ロック付きジッパー結合折り紙チューブ",
+                  "OldFamily": "Zipper tube系",
+                  "OldSortGroup": "Tubular origami / 筒状折り紙"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "30 Thick-panel・Hybrid / 厚板・複合",
+      "families": [
+        {
+          "family_id": "F-THK",
+          "family": "Thick-panel / Origami-kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "KiriSTP",
+              "variants": [
+                {
+                  "RecordID": "H-001",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-THK",
+                  "Family": "Thick-panel / Origami-kirigami系",
+                  "BasePattern": "KiriSTP",
+                  "VariantName": "Symmetrical triangular origami-kirigami pattern / KiriSTP / 対称三角形折り紙・切り紙パターン",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Thick-panel / hybrid pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "切り込み付き三角形",
+                  "Function": "slitで厚板干渉回避",
+                  "Application": "平坦収納構造",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel / Origami-kirigami系 > KiriSTP > Symmetrical triangular origami-kirigami pattern / KiriSTP / 対称三角形折り紙・切り紙パターン",
+                  "OldFamily": "Kirigami triangular系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            },
+            {
+              "base_pattern": "KiriSTTPU",
+              "variants": [
+                {
+                  "RecordID": "H-002",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-THK",
+                  "Family": "Thick-panel / Origami-kirigami系",
+                  "BasePattern": "KiriSTTPU",
+                  "VariantName": "Origami-kirigami-based STTPU / KiriSTTPU / 切り紙型対称三角形厚板ユニット",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Thick-panel / hybrid pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "厚板切り紙ユニット",
+                  "Function": "Bricard linkage・boss低減",
+                  "Application": "宇宙展開パネル",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel / Origami-kirigami系 > KiriSTTPU > Origami-kirigami-based STTPU / KiriSTTPU / 切り紙型対称三角形厚板ユニット",
+                  "OldFamily": "Thick-panel kirigami系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            },
+            {
+              "base_pattern": "STP",
+              "variants": [
+                {
+                  "RecordID": "H-003",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-THK",
+                  "Family": "Thick-panel / Origami-kirigami系",
+                  "BasePattern": "STP",
+                  "VariantName": "Symmetrical triangular origami pattern / OriSTP / 対称三角形折り紙パターン",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Thick-panel / hybrid pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "三角形ベース",
+                  "Function": "n-layer inward folding",
+                  "Application": "三角形モジュール",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel / Origami-kirigami系 > STP > Symmetrical triangular origami pattern / OriSTP / 対称三角形折り紙パターン",
+                  "OldFamily": "Triangular系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            },
+            {
+              "base_pattern": "STTPU",
+              "variants": [
+                {
+                  "RecordID": "H-004",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-THK",
+                  "Family": "Thick-panel / Origami-kirigami系",
+                  "BasePattern": "STTPU",
+                  "VariantName": "Origami-based symmetrical triangular thick-panel unit / OriSTTPU / 折り紙型対称三角形厚板ユニット",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Thick-panel / hybrid pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "厚板ユニット",
+                  "Function": "Bennett linkage",
+                  "Application": "宇宙構造・建築モジュール",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel / Origami-kirigami系 > STTPU > Origami-based symmetrical triangular thick-panel unit / OriSTTPU / 折り紙型対称三角形厚板ユニット",
+                  "OldFamily": "Thick-panel unit系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            },
+            {
+              "base_pattern": "TPMSA",
+              "variants": [
+                {
+                  "RecordID": "H-005",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-THK",
+                  "Family": "Thick-panel / Origami-kirigami系",
+                  "BasePattern": "TPMSA",
+                  "VariantName": "Thick-panel modular scalable array / TPMSA / 厚板モジュール拡張アレイ",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Array / configuration",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "厚板アレイ",
+                  "Function": "2方向拡張・1自由度",
+                  "Application": "太陽電池アレイ・アンテナ",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel / Origami-kirigami系 > TPMSA > Thick-panel modular scalable array / TPMSA / 厚板モジュール拡張アレイ",
+                  "OldFamily": "Modular array系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            },
+            {
+              "base_pattern": "Thick-panel",
+              "variants": [
+                {
+                  "RecordID": "H-006",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-THK",
+                  "Family": "Thick-panel / Origami-kirigami系",
+                  "BasePattern": "Thick-panel",
+                  "VariantName": "One-DOF flat-foldable thick-panel origami-kirigami structure / 1自由度平坦折り厚板折り紙・切り紙構造",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Thick-panel / hybrid pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "厚板折り紙・切り紙",
+                  "Function": "厚板対応・干渉回避",
+                  "Application": "宇宙展開・モジュール建築",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel / Origami-kirigami系 > Thick-panel > One-DOF flat-foldable thick-panel origami-kirigami structure / 1自由度平坦折り厚板折り紙・切り紙構造",
+                  "OldFamily": "Thick-panel系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-TCP",
+          "family": "Thick-panel closed polyhedra系",
+          "base_patterns": [
+            {
+              "base_pattern": "Closed polyhedra",
+              "variants": [
+                {
+                  "RecordID": "H-007",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-TCP",
+                  "Family": "Thick-panel closed polyhedra系",
+                  "BasePattern": "Closed polyhedra",
+                  "VariantName": "Thick-panel regular tetrahedral structure / 厚板正四面体構造",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Thick-panel 3D variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "閉じた多面体",
+                  "Function": "1DOF inward-flat-folding",
+                  "Application": "宇宙居住・折り畳み建築",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel closed polyhedra系 > Closed polyhedra > Thick-panel regular tetrahedral structure / 厚板正四面体構造",
+                  "OldFamily": "Closed polyhedra系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                },
+                {
+                  "RecordID": "H-008",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-TCP",
+                  "Family": "Thick-panel closed polyhedra系",
+                  "BasePattern": "Closed polyhedra",
+                  "VariantName": "Thick-panel regular triangular prismatic structure / 厚板正三角柱構造",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Thick-panel 3D variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "閉じた多面体",
+                  "Function": "1自由度・検証あり",
+                  "Application": "宇宙部材・折り畳みコンテナ",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel closed polyhedra系 > Closed polyhedra > Thick-panel regular triangular prismatic structure / 厚板正三角柱構造",
+                  "OldFamily": "Closed polyhedra系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                },
+                {
+                  "RecordID": "H-009",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-TCP",
+                  "Family": "Thick-panel closed polyhedra系",
+                  "BasePattern": "Closed polyhedra",
+                  "VariantName": "Thick-panel regular quadrangular pyramidal structure / 厚板正四角錐構造",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Thick-panel 3D variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "閉じた多面体",
+                  "Function": "volume/surface area調整",
+                  "Application": "展開型建築",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S10",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Thick-panel closed polyhedra系 > Closed polyhedra > Thick-panel regular quadrangular pyramidal structure / 厚板正四角錐構造",
+                  "OldFamily": "Closed polyhedra系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-CUB",
+          "family": "Cube-based kiri-origami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Cube-based",
+              "variants": [
+                {
+                  "RecordID": "H-010",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-CUB",
+                  "Family": "Cube-based kiri-origami系",
+                  "BasePattern": "Cube-based",
+                  "VariantName": "4-cube structural unit / 4立方体構造ユニット",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "4R閉ループ機構",
+                  "Function": "reconfiguration paths",
+                  "Application": "3Dメタマテリアル",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S13",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Cube-based kiri-origami系 > Cube-based > 4-cube structural unit / 4立方体構造ユニット",
+                  "OldFamily": "Cube-based系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                },
+                {
+                  "RecordID": "H-011",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-CUB",
+                  "Family": "Cube-based kiri-origami系",
+                  "BasePattern": "Cube-based",
+                  "VariantName": "6-cube structural unit / 6立方体構造ユニット",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "6R閉ループ機構",
+                  "Function": "in-plane/out-of-plane分岐",
+                  "Application": "異方性剛性設計",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S13",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Cube-based kiri-origami系 > Cube-based > 6-cube structural unit / 6立方体構造ユニット",
+                  "OldFamily": "Cube-based系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                },
+                {
+                  "RecordID": "H-012",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-CUB",
+                  "Family": "Cube-based kiri-origami系",
+                  "BasePattern": "Cube-based",
+                  "VariantName": "8-cube structural unit / 8立方体構造ユニット",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "8R閉ループ機構",
+                  "Function": "高自由度・複数分岐",
+                  "Application": "adaptive structures",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S13",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Cube-based kiri-origami系 > Cube-based > 8-cube structural unit / 8立方体構造ユニット",
+                  "OldFamily": "Cube-based系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-HIE",
+          "family": "Hierarchical origami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Hierarchical origami",
+              "variants": [
+                {
+                  "RecordID": "H-013",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-HIE",
+                  "Family": "Hierarchical origami系",
+                  "BasePattern": "Hierarchical origami",
+                  "VariantName": "Adaptive hierarchical origami-based metastructure / 適応型階層折り紙メタ構造",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "階層構造",
+                  "Function": "少ないDOFで多数形状",
+                  "Application": "可変建築・ロボット",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S16",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Hierarchical origami系 > Hierarchical origami > Adaptive hierarchical origami-based metastructure / 適応型階層折り紙メタ構造",
+                  "OldFamily": "Hierarchical origami系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                },
+                {
+                  "RecordID": "H-014",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-HIE",
+                  "Family": "Hierarchical origami系",
+                  "BasePattern": "Hierarchical origami",
+                  "VariantName": "Level-2 <8R,4R> hierarchical origami / レベル2階層折り紙",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "階層閉ループ",
+                  "Function": "内部構造ループ",
+                  "Application": "self-reconfigurable architecture",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S16",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Hierarchical origami系 > Hierarchical origami > Level-2 <8R,4R> hierarchical origami / レベル2階層折り紙",
+                  "OldFamily": "Hierarchical origami系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                },
+                {
+                  "RecordID": "H-015",
+                  "SuperCategory": "30 Thick-panel・Hybrid / 厚板・複合",
+                  "FamilyID": "F-HIE",
+                  "Family": "Hierarchical origami系",
+                  "BasePattern": "Hierarchical origami",
+                  "VariantName": "Level-3 <8R,4R,2R> hierarchical origami / レベル3階層折り紙",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Structural unit / module",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "多階層構造",
+                  "Function": "複雑な3D形状変形",
+                  "Application": "大型可変構造・宇宙構造",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S16",
+                  "HierarchyPath": "30 Thick-panel・Hybrid / 厚板・複合 > Hierarchical origami系 > Hierarchical origami > Level-3 <8R,4R,2R> hierarchical origami / レベル3階層折り紙",
+                  "OldFamily": "Hierarchical origami系",
+                  "OldSortGroup": "Thick-panel & hybrid / 厚板・ハイブリッド"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "40 Surface・Tessellation / 表面・テセレーション",
+      "families": [
+        {
+          "family_id": "F-CRV",
+          "family": "Curved crease系",
+          "base_patterns": [
+            {
+              "base_pattern": "Curved crease",
+              "variants": [
+                {
+                  "RecordID": "S-001",
+                  "SuperCategory": "40 Surface・Tessellation / 表面・テセレーション",
+                  "FamilyID": "F-CRV",
+                  "Family": "Curved crease系",
+                  "BasePattern": "Curved crease",
+                  "VariantName": "Curved crease origami / 曲線折り",
+                  "EntryLayer": "1 Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "曲線折り",
+                  "Function": "弾性変形・曲面生成",
+                  "Application": "建築表皮・アクチュエータ",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S06/S21",
+                  "HierarchyPath": "40 Surface・Tessellation / 表面・テセレーション > Curved crease系 > Curved crease > Curved crease origami / 曲線折り",
+                  "OldFamily": "Curved crease系",
+                  "OldSortGroup": "Surface & tessellation origami / 表面・テセレーション"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-HYP",
+          "family": "Hypar系",
+          "base_patterns": [
+            {
+              "base_pattern": "Hypar",
+              "variants": [
+                {
+                  "RecordID": "S-002",
+                  "SuperCategory": "40 Surface・Tessellation / 表面・テセレーション",
+                  "FamilyID": "F-HYP",
+                  "Family": "Hypar系",
+                  "BasePattern": "Hypar",
+                  "VariantName": "Hypar origami / ハイパー折り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Surface / curved pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "曲面折り",
+                  "Function": "多安定性",
+                  "Application": "メカニカルメモリ",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S21",
+                  "HierarchyPath": "40 Surface・Tessellation / 表面・テセレーション > Hypar系 > Hypar > Hypar origami / ハイパー折り紙",
+                  "OldFamily": "Hypar系",
+                  "OldSortGroup": "Surface & tessellation origami / 表面・テセレーション"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-BEL",
+          "family": "Origami bellows系",
+          "base_patterns": [
+            {
+              "base_pattern": "Bellows",
+              "variants": [
+                {
+                  "RecordID": "S-003",
+                  "SuperCategory": "40 Surface・Tessellation / 表面・テセレーション",
+                  "FamilyID": "F-BEL",
+                  "Family": "Origami bellows系",
+                  "BasePattern": "Bellows",
+                  "VariantName": "Origami bellows / 折り紙ベローズ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "ベローズ構造",
+                  "Function": "bistable・snap-through",
+                  "Application": "アクチュエータ・エネルギー吸収",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S21",
+                  "HierarchyPath": "40 Surface・Tessellation / 表面・テセレーション > Origami bellows系 > Bellows > Origami bellows / 折り紙ベローズ",
+                  "OldFamily": "Bellows系",
+                  "OldSortGroup": "Surface & tessellation origami / 表面・テセレーション"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-TES",
+          "family": "Origami tessellation系",
+          "base_patterns": [
+            {
+              "base_pattern": "Tessellation",
+              "variants": [
+                {
+                  "RecordID": "S-004",
+                  "SuperCategory": "40 Surface・Tessellation / 表面・テセレーション",
+                  "FamilyID": "F-TES",
+                  "Family": "Origami tessellation系",
+                  "BasePattern": "Tessellation",
+                  "VariantName": "Periodic tessellation / 周期テセレーション",
+                  "EntryLayer": "1 Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "平面反復パターン",
+                  "Function": "unit cell反復",
+                  "Application": "建築表皮・材料表面",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S06",
+                  "HierarchyPath": "40 Surface・Tessellation / 表面・テセレーション > Origami tessellation系 > Tessellation > Periodic tessellation / 周期テセレーション",
+                  "OldFamily": "Tessellation系",
+                  "OldSortGroup": "Surface & tessellation origami / 表面・テセレーション"
+                },
+                {
+                  "RecordID": "S-005",
+                  "SuperCategory": "40 Surface・Tessellation / 表面・テセレーション",
+                  "FamilyID": "F-TES",
+                  "Family": "Origami tessellation系",
+                  "BasePattern": "Tessellation",
+                  "VariantName": "Château-Chinon tessellation / シャトー・シノン・テセレーション",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tessellation / surface pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "平面テセレーション",
+                  "Function": "反復構成",
+                  "Application": "デザイン・表面構造",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S06",
+                  "HierarchyPath": "40 Surface・Tessellation / 表面・テセレーション > Origami tessellation系 > Tessellation > Château-Chinon tessellation / シャトー・シノン・テセレーション",
+                  "OldFamily": "Tessellation系",
+                  "OldSortGroup": "Surface & tessellation origami / 表面・テセレーション"
+                }
+              ]
+            },
+            {
+              "base_pattern": "Double-faced",
+              "variants": [
+                {
+                  "RecordID": "S-006",
+                  "SuperCategory": "40 Surface・Tessellation / 表面・テセレーション",
+                  "FamilyID": "F-TES",
+                  "Family": "Origami tessellation系",
+                  "BasePattern": "Double-faced",
+                  "VariantName": "Wedged double-faced tessellation / くさび型両面テセレーション",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tessellation / surface pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "複合テセレーション",
+                  "Function": "複雑なM/V配置",
+                  "Application": "建築構造・複合折り構造",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S04",
+                  "HierarchyPath": "40 Surface・Tessellation / 表面・テセレーション > Origami tessellation系 > Double-faced > Wedged double-faced tessellation / くさび型両面テセレーション",
+                  "OldFamily": "Double-faced系",
+                  "OldSortGroup": "Surface & tessellation origami / 表面・テセレーション"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "50 Kirigami 2D / 2D切り紙",
+      "families": [
+        {
+          "family_id": "F-CVX",
+          "family": "Convex cut kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Convex cut",
+              "variants": [
+                {
+                  "RecordID": "K-001",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-CVX",
+                  "Family": "Convex cut kirigami系",
+                  "BasePattern": "Convex cut",
+                  "VariantName": "Convex-cut kirigami / 凸型カット切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Classification / cut family",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "2D剛体変形",
+                  "Function": "剛体回転に近い",
+                  "Application": "展開構造",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Appendix / reference",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Convex cut kirigami系 > Convex cut > Convex-cut kirigami / 凸型カット切り紙",
+                  "OldFamily": "Convex cut系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-NCV",
+          "family": "Nonconvex cut kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Nonconvex cut",
+              "variants": [
+                {
+                  "RecordID": "K-002",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-NCV",
+                  "Family": "Nonconvex cut kirigami系",
+                  "BasePattern": "Nonconvex cut",
+                  "VariantName": "Nonconvex-cut bistable kirigami / 非凸型双安定切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Classification / cut family",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "双安定切り紙",
+                  "Function": "energy barrier・bistability",
+                  "Application": "メカニカルスイッチ",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Appendix / reference",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Nonconvex cut kirigami系 > Nonconvex cut > Nonconvex-cut bistable kirigami / 非凸型双安定切り紙",
+                  "OldFamily": "Nonconvex cut系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-PQK",
+          "family": "Quadrilateral kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "PQK",
+              "variants": [
+                {
+                  "RecordID": "K-003",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-PQK",
+                  "Family": "Quadrilateral kirigami系",
+                  "BasePattern": "PQK",
+                  "VariantName": "Planar quadrilateral kirigami / PQK / 平面四角形切り紙",
+                  "EntryLayer": "1 Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "四角形kirigami",
+                  "Function": "free-form boundary control",
+                  "Application": "形状適合・可変境界",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Quadrilateral kirigami系 > PQK > Planar quadrilateral kirigami / PQK / 平面四角形切り紙",
+                  "OldFamily": "Quadrilateral kirigami系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                },
+                {
+                  "RecordID": "K-004",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-PQK",
+                  "Family": "Quadrilateral kirigami系",
+                  "BasePattern": "PQK",
+                  "VariantName": "Genus-n planar quadrilateral kirigami / 穴付き平面四角形切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "多孔kirigami",
+                  "Function": "内外境界制御",
+                  "Application": "可変開口・ファサード",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Quadrilateral kirigami系 > PQK > Genus-n planar quadrilateral kirigami / 穴付き平面四角形切り紙",
+                  "OldFamily": "Quadrilateral kirigami系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            },
+            {
+              "base_pattern": "SQK",
+              "variants": [
+                {
+                  "RecordID": "K-005",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-PQK",
+                  "Family": "Quadrilateral kirigami系",
+                  "BasePattern": "SQK",
+                  "VariantName": "Spherical quadrilateral kirigami / SQK / 球面四角形切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "曲面kirigami",
+                  "Function": "Gaussian curvature影響",
+                  "Application": "曲面シェル・医療デバイス",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Quadrilateral kirigami系 > SQK > Spherical quadrilateral kirigami / SQK / 球面四角形切り紙",
+                  "OldFamily": "Spherical kirigami系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-KAG",
+          "family": "Kagome kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Kagome",
+              "variants": [
+                {
+                  "RecordID": "K-006",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-KAG",
+                  "Family": "Kagome kirigami系",
+                  "BasePattern": "Kagome",
+                  "VariantName": "Kagome kirigami / カゴメ切り紙",
+                  "EntryLayer": "1 Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "三角格子",
+                  "Function": "topological polarization",
+                  "Application": "トポロジカルメタマテリアル",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Kagome kirigami系 > Kagome > Kagome kirigami / カゴメ切り紙",
+                  "OldFamily": "Kagome系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-RSQ",
+          "family": "Rotating-square kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Rotating-square",
+              "variants": [
+                {
+                  "RecordID": "K-007",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-RSQ",
+                  "Family": "Rotating-square kirigami系",
+                  "BasePattern": "Rotating-square",
+                  "VariantName": "Rotating-square kirigami / 回転正方形切り紙",
+                  "EntryLayer": "1 Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "auxetic構造",
+                  "Function": "負のPoisson比",
+                  "Application": "auxetic materials",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Rotating-square kirigami系 > Rotating-square > Rotating-square kirigami / 回転正方形切り紙",
+                  "OldFamily": "Rotating-square系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                },
+                {
+                  "RecordID": "K-015",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-RSQ",
+                  "Family": "Rotating-square kirigami系",
+                  "BasePattern": "Rotating-square",
+                  "VariantName": "Thin rotating-square buckling kirigami / 薄板回転正方形座屈切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "面外座屈",
+                  "Function": "thicknessで変形モード変化",
+                  "Application": "3D形状生成",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Rotating-square kirigami系 > Rotating-square > Thin rotating-square buckling kirigami / 薄板回転正方形座屈切り紙",
+                  "OldFamily": "Buckling kirigami系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-MOT",
+          "family": "Motif-inspired kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Motif",
+              "variants": [
+                {
+                  "RecordID": "K-008",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-MOT",
+                  "Family": "Motif-inspired kirigami系",
+                  "BasePattern": "Motif",
+                  "VariantName": "Square-core motif kirigami / 正方形コア・モチーフ切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "非凸カット",
+                  "Function": "bistability強化",
+                  "Application": "メカニカルメモリ",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Motif-inspired kirigami系 > Motif > Square-core motif kirigami / 正方形コア・モチーフ切り紙",
+                  "OldFamily": "Motif-inspired系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                },
+                {
+                  "RecordID": "K-009",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-MOT",
+                  "Family": "Motif-inspired kirigami系",
+                  "BasePattern": "Motif",
+                  "VariantName": "Triangular-core motif kirigami / 三角形コア・モチーフ切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "等方展開",
+                  "Function": "isotropic dilation",
+                  "Application": "auxetic surface",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Motif-inspired kirigami系 > Motif > Triangular-core motif kirigami / 三角形コア・モチーフ切り紙",
+                  "OldFamily": "Motif-inspired系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-KIR",
+          "family": "Kirigami general系",
+          "base_patterns": [
+            {
+              "base_pattern": "Wallpaper group",
+              "variants": [
+                {
+                  "RecordID": "K-010",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-KIR",
+                  "Family": "Kirigami general系",
+                  "BasePattern": "Wallpaper group",
+                  "VariantName": "Wallpaper-group kirigami / 壁紙群切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Classification / cut family",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "対称性設計",
+                  "Function": "17 wallpaper groups",
+                  "Application": "幾何分類・材料デザイン",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Appendix / reference",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Kirigami general系 > Wallpaper group > Wallpaper-group kirigami / 壁紙群切り紙",
+                  "OldFamily": "Symmetry kirigami系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-QCK",
+          "family": "Quasi-crystal kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Quasi-crystal",
+              "variants": [
+                {
+                  "RecordID": "K-011",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-QCK",
+                  "Family": "Quasi-crystal kirigami系",
+                  "BasePattern": "Quasi-crystal",
+                  "VariantName": "Ammann–Beenker kirigami / アマン・ビーンカー切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "準結晶kirigami",
+                  "Function": "8回対称・非周期",
+                  "Application": "非周期材料",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Quasi-crystal kirigami系 > Quasi-crystal > Ammann–Beenker kirigami / アマン・ビーンカー切り紙",
+                  "OldFamily": "Quasi-crystal系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                },
+                {
+                  "RecordID": "K-012",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-QCK",
+                  "Family": "Quasi-crystal kirigami系",
+                  "BasePattern": "Quasi-crystal",
+                  "VariantName": "Penrose kirigami / ペンローズ切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "準結晶kirigami",
+                  "Function": "非周期・5回対称",
+                  "Application": "特殊波動制御",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Quasi-crystal kirigami系 > Quasi-crystal > Penrose kirigami / ペンローズ切り紙",
+                  "OldFamily": "Quasi-crystal系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                },
+                {
+                  "RecordID": "K-013",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-QCK",
+                  "Family": "Quasi-crystal kirigami系",
+                  "BasePattern": "Quasi-crystal",
+                  "VariantName": "Stampfli kirigami / シュタンフリ切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "準結晶kirigami",
+                  "Function": "12回対称",
+                  "Application": "大面積展開",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Quasi-crystal kirigami系 > Quasi-crystal > Stampfli kirigami / シュタンフリ切り紙",
+                  "OldFamily": "Quasi-crystal系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-RIB",
+          "family": "Ribbon / parallel-cut kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Ribbon",
+              "variants": [
+                {
+                  "RecordID": "K-014",
+                  "SuperCategory": "50 Kirigami 2D / 2D切り紙",
+                  "FamilyID": "F-RIB",
+                  "Family": "Ribbon / parallel-cut kirigami系",
+                  "BasePattern": "Ribbon",
+                  "VariantName": "Parallel-cut / ribbon kirigami / 平行スリット切り紙",
+                  "EntryLayer": "1 Base pattern / 基本パターン",
+                  "VariantType": "Base pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "高伸縮kirigami",
+                  "Function": "buckling制御・高伸縮",
+                  "Application": "stretchable electronics",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "50 Kirigami 2D / 2D切り紙 > Ribbon / parallel-cut kirigami系 > Ribbon > Parallel-cut / ribbon kirigami / 平行スリット切り紙",
+                  "OldFamily": "Ribbon kirigami系",
+                  "OldSortGroup": "Kirigami 2D / 平面切り紙"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+      "families": [
+        {
+          "family_id": "F-KIR",
+          "family": "Kirigami general系",
+          "base_patterns": [
+            {
+              "base_pattern": "Tetrahedral hinge",
+              "variants": [
+                {
+                  "RecordID": "K-016",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-KIR",
+                  "Family": "Kirigami general系",
+                  "BasePattern": "Tetrahedral hinge",
+                  "VariantName": "Kirigami with tetrahedral folding hinges / 四面体ヒンジ付き切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Hybrid fold-cut pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "折り＋切り",
+                  "Function": "out-of-plane buckling抑制",
+                  "Application": "in-plane deployment",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Kirigami general系 > Tetrahedral hinge > Kirigami with tetrahedral folding hinges / 四面体ヒンジ付き切り紙",
+                  "OldFamily": "Folding-hinge系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-LAT",
+          "family": "Lattice kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Lattice",
+              "variants": [
+                {
+                  "RecordID": "K-017",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-LAT",
+                  "Family": "Lattice kirigami系",
+                  "BasePattern": "Lattice",
+                  "VariantName": "Cuboctahedral lattice kirigami / 立方八面体ラティス切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "3D / morphing kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "3D lattice",
+                  "Function": "一枚の紙から3D構造",
+                  "Application": "空間構造・教育",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Lattice kirigami系 > Lattice > Cuboctahedral lattice kirigami / 立方八面体ラティス切り紙",
+                  "OldFamily": "Lattice kirigami系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                },
+                {
+                  "RecordID": "K-018",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-LAT",
+                  "Family": "Lattice kirigami系",
+                  "BasePattern": "Lattice",
+                  "VariantName": "Octahedral lattice kirigami / 八面体ラティス切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "3D / morphing kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "3D lattice",
+                  "Function": "interlocking",
+                  "Application": "軽量格子・空間構造",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Lattice kirigami系 > Lattice > Octahedral lattice kirigami / 八面体ラティス切り紙",
+                  "OldFamily": "Lattice kirigami系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-KAG",
+          "family": "Kagome kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Folded kirigami",
+              "variants": [
+                {
+                  "RecordID": "K-019",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-KAG",
+                  "Family": "Kagome kirigami系",
+                  "BasePattern": "Folded kirigami",
+                  "VariantName": "Folded kagome kirigami / 折り込みカゴメ切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Hybrid fold-cut pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "厚み付き2D機構",
+                  "Function": "面内変形と剛性両立",
+                  "Application": "robotic materials",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Kagome kirigami系 > Folded kirigami > Folded kagome kirigami / 折り込みカゴメ切り紙",
+                  "OldFamily": "Folded kirigami系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            },
+            {
+              "base_pattern": "Topological kagome",
+              "variants": [
+                {
+                  "RecordID": "K-031",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-KAG",
+                  "Family": "Kagome kirigami系",
+                  "BasePattern": "Topological kagome",
+                  "VariantName": "Topologically polarized kagome kirigami / トポロジカル偏極カゴメ切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "トポロジカル材料",
+                  "Function": "floppy/stress modes",
+                  "Application": "波動制御",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Kagome kirigami系 > Topological kagome > Topologically polarized kagome kirigami / トポロジカル偏極カゴメ切り紙",
+                  "OldFamily": "Metamaterial系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-RSQ",
+          "family": "Rotating-square kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Folded kirigami",
+              "variants": [
+                {
+                  "RecordID": "K-020",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-RSQ",
+                  "Family": "Rotating-square kirigami系",
+                  "BasePattern": "Folded kirigami",
+                  "VariantName": "Folded rotating-square kirigami / 折り込み回転正方形切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Hybrid fold-cut pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "厚み付き2D機構",
+                  "Function": "morphing efficiency",
+                  "Application": "auxetic panel",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Rotating-square kirigami系 > Folded kirigami > Folded rotating-square kirigami / 折り込み回転正方形切り紙",
+                  "OldFamily": "Folded kirigami系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-PQK",
+          "family": "Quadrilateral kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Morphing",
+              "variants": [
+                {
+                  "RecordID": "K-021",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-PQK",
+                  "Family": "Quadrilateral kirigami系",
+                  "BasePattern": "Morphing",
+                  "VariantName": "Quadrilateral kirigami hyperbolic paraboloid / 双曲放物面四角形切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "3D / morphing kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "3D曲面変形",
+                  "Function": "saddle-like surface",
+                  "Application": "建築表皮",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Quadrilateral kirigami系 > Morphing > Quadrilateral kirigami hyperbolic paraboloid / 双曲放物面四角形切り紙",
+                  "OldFamily": "3D morphing系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-MOR",
+          "family": "3D morphing kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Morphing",
+              "variants": [
+                {
+                  "RecordID": "K-022",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-MOR",
+                  "Family": "3D morphing kirigami系",
+                  "BasePattern": "Morphing",
+                  "VariantName": "Kirigami deployable double torus / 二重トーラス展開切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "3D / morphing kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "3D形状変形",
+                  "Function": "複雑トポロジー",
+                  "Application": "医療デバイス・複雑曲面",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > 3D morphing kirigami系 > Morphing > Kirigami deployable double torus / 二重トーラス展開切り紙",
+                  "OldFamily": "3D morphing系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            },
+            {
+              "base_pattern": "Closed morphing",
+              "variants": [
+                {
+                  "RecordID": "K-023",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-MOR",
+                  "Family": "3D morphing kirigami系",
+                  "BasePattern": "Closed morphing",
+                  "VariantName": "Cube-to-sphere kirigami assemblage / 立方体から球体への切り紙構造",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "3D / morphing kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "閉曲面変形",
+                  "Function": "bistable closed surface",
+                  "Application": "可変容器・ロボット外皮",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > 3D morphing kirigami系 > Closed morphing > Cube-to-sphere kirigami assemblage / 立方体から球体への切り紙構造",
+                  "OldFamily": "Closed morphing系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                },
+                {
+                  "RecordID": "K-024",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-MOR",
+                  "Family": "3D morphing kirigami系",
+                  "BasePattern": "Closed morphing",
+                  "VariantName": "Sphere-to-torus kirigami assemblage / 球体からトーラスへの切り紙構造",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "3D / morphing kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "トポロジー変化",
+                  "Function": "topology change",
+                  "Application": "複雑形状設計",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > 3D morphing kirigami系 > Closed morphing > Sphere-to-torus kirigami assemblage / 球体からトーラスへの切り紙構造",
+                  "OldFamily": "Closed morphing系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-BIO",
+          "family": "Biomedical kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Biomedical kirigami",
+              "variants": [
+                {
+                  "RecordID": "K-025",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-BIO",
+                  "Family": "Biomedical kirigami系",
+                  "BasePattern": "Biomedical kirigami",
+                  "VariantName": "Injectable kirigami stent / 注入型切り紙ステント",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "3D / morphing kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "医療用kirigami",
+                  "Function": "折り畳み収納・体内展開",
+                  "Application": "oesophageal stent",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Biomedical kirigami系 > Biomedical kirigami > Injectable kirigami stent / 注入型切り紙ステント",
+                  "OldFamily": "Biomedical kirigami系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-INF",
+          "family": "Inflatable kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Inflatable kirigami",
+              "variants": [
+                {
+                  "RecordID": "K-026",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-INF",
+                  "Family": "Inflatable kirigami系",
+                  "BasePattern": "Inflatable kirigami",
+                  "VariantName": "Kirigami-inspired inflatable metastructure / 切り紙インフレータブルメタ構造",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "3D / morphing kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "空気圧構造",
+                  "Function": "extension/bending/twisting",
+                  "Application": "pneumatic robot",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Inflatable kirigami系 > Inflatable kirigami > Kirigami-inspired inflatable metastructure / 切り紙インフレータブルメタ構造",
+                  "OldFamily": "Inflatable kirigami系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-SKN",
+          "family": "Kirigami skin / robotics系",
+          "base_patterns": [
+            {
+              "base_pattern": "Kirigami skin",
+              "variants": [
+                {
+                  "RecordID": "K-027",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-SKN",
+                  "Family": "Kirigami skin / robotics系",
+                  "BasePattern": "Kirigami skin",
+                  "VariantName": "Kirigami skin soft crawler / 切り紙スキン型ソフトクローラー",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "ロボットスキン",
+                  "Function": "摩擦・変形方向制御",
+                  "Application": "soft robot locomotion",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Kirigami skin / robotics系 > Kirigami skin > Kirigami skin soft crawler / 切り紙スキン型ソフトクローラー",
+                  "OldFamily": "Soft robotics系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            },
+            {
+              "base_pattern": "Triangular-cut skin",
+              "variants": [
+                {
+                  "RecordID": "K-028",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-SKN",
+                  "Family": "Kirigami skin / robotics系",
+                  "BasePattern": "Triangular-cut skin",
+                  "VariantName": "Triangular-cut kirigami skin tube / 三角カット切り紙スキンチューブ",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "pop-up構造",
+                  "Function": "programmed pop-up",
+                  "Application": "soft robot・deployable tube",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Kirigami skin / robotics系 > Triangular-cut skin > Triangular-cut kirigami skin tube / 三角カット切り紙スキンチューブ",
+                  "OldFamily": "Kirigami instability系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-KTB",
+          "family": "Tubular kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Tubular kirigami",
+              "variants": [
+                {
+                  "RecordID": "K-029",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-KTB",
+                  "Family": "Tubular kirigami系",
+                  "BasePattern": "Tubular kirigami",
+                  "VariantName": "Kirigami-based tubular metamaterial / 切り紙型チューブメタマテリアル",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "切り込みチューブ",
+                  "Function": "柔軟性・大変形",
+                  "Application": "soft crawler・stent",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Tubular kirigami系 > Tubular kirigami > Kirigami-based tubular metamaterial / 切り紙型チューブメタマテリアル",
+                  "OldFamily": "Tubular kirigami系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "family_id": "F-KMM",
+          "family": "Kirigami metamaterial系",
+          "base_patterns": [
+            {
+              "base_pattern": "Nonreciprocal",
+              "variants": [
+                {
+                  "RecordID": "K-030",
+                  "SuperCategory": "60 Kirigami 3D・Morphing / 3D変形切り紙",
+                  "FamilyID": "F-KMM",
+                  "Family": "Kirigami metamaterial系",
+                  "BasePattern": "Nonreciprocal",
+                  "VariantName": "Nonreciprocal square-rhombus kirigami / 非相反正方形・ひし形切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "2D kirigami pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "非相反材料",
+                  "Function": "static nonreciprocity",
+                  "Application": "力学ダイオード",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "60 Kirigami 3D・Morphing / 3D変形切り紙 > Kirigami metamaterial系 > Nonreciprocal > Nonreciprocal square-rhombus kirigami / 非相反正方形・ひし形切り紙",
+                  "OldFamily": "Metamaterial系",
+                  "OldSortGroup": "Kirigami 3D & morphing / 3D変形切り紙"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "70 Nano・Micro kirigami / ナノ・マイクロ",
+      "families": [
+        {
+          "family_id": "F-NAN",
+          "family": "Nano / micro kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Nano-kirigami",
+              "variants": [
+                {
+                  "RecordID": "N-001",
+                  "SuperCategory": "70 Nano・Micro kirigami / ナノ・マイクロ",
+                  "FamilyID": "F-NAN",
+                  "Family": "Nano / micro kirigami系",
+                  "BasePattern": "Nano-kirigami",
+                  "VariantName": "Chiral curve-cut nanomembrane kirigami / カイラル曲線カット・ナノ膜切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Nano / micro pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "カイラルkirigami",
+                  "Function": "rotational symmetry",
+                  "Application": "光学デバイス",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "70 Nano・Micro kirigami / ナノ・マイクロ > Nano / micro kirigami系 > Nano-kirigami > Chiral curve-cut nanomembrane kirigami / カイラル曲線カット・ナノ膜切り紙",
+                  "OldFamily": "Chiral kirigami系",
+                  "OldSortGroup": "Nano / micro kirigami / ナノ・マイクロ"
+                },
+                {
+                  "RecordID": "N-002",
+                  "SuperCategory": "70 Nano・Micro kirigami / ナノ・マイクロ",
+                  "FamilyID": "F-NAN",
+                  "Family": "Nano / micro kirigami系",
+                  "BasePattern": "Nano-kirigami",
+                  "VariantName": "Cross-cut nanomembrane kirigami / クロスカット・ナノ膜切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Nano / micro pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "ナノkirigami",
+                  "Function": "pyramidal 3D buckling",
+                  "Application": "MEMS・ナノ構造",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "70 Nano・Micro kirigami / ナノ・マイクロ > Nano / micro kirigami系 > Nano-kirigami > Cross-cut nanomembrane kirigami / クロスカット・ナノ膜切り紙",
+                  "OldFamily": "Nano-kirigami系",
+                  "OldSortGroup": "Nano / micro kirigami / ナノ・マイクロ"
+                },
+                {
+                  "RecordID": "N-003",
+                  "SuperCategory": "70 Nano・Micro kirigami / ナノ・マイクロ",
+                  "FamilyID": "F-NAN",
+                  "Family": "Nano / micro kirigami系",
+                  "BasePattern": "Nano-kirigami",
+                  "VariantName": "Concentric-cut gold nanofilm / 同心円カット金ナノ膜",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Nano / micro pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "ナノkirigami",
+                  "Function": "座屈方向制御",
+                  "Application": "可変光学デバイス",
+                  "Priority": 4,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "70 Nano・Micro kirigami / ナノ・マイクロ > Nano / micro kirigami系 > Nano-kirigami > Concentric-cut gold nanofilm / 同心円カット金ナノ膜",
+                  "OldFamily": "Nano-kirigami系",
+                  "OldSortGroup": "Nano / micro kirigami / ナノ・マイクロ"
+                },
+                {
+                  "RecordID": "N-004",
+                  "SuperCategory": "70 Nano・Micro kirigami / ナノ・マイクロ",
+                  "FamilyID": "F-NAN",
+                  "Family": "Nano / micro kirigami系",
+                  "BasePattern": "Nano-kirigami",
+                  "VariantName": "Flower-like cut gold nanofilm / 花形カット金ナノ膜",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Nano / micro pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "ナノkirigami",
+                  "Function": "ion beam upward buckling",
+                  "Application": "ナノアクチュエータ",
+                  "Priority": 4,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S11",
+                  "HierarchyPath": "70 Nano・Micro kirigami / ナノ・マイクロ > Nano / micro kirigami系 > Nano-kirigami > Flower-like cut gold nanofilm / 花形カット金ナノ膜",
+                  "OldFamily": "Nano-kirigami系",
+                  "OldSortGroup": "Nano / micro kirigami / ナノ・マイクロ"
+                }
+              ]
+            },
+            {
+              "base_pattern": "Carbon nanotube",
+              "variants": [
+                {
+                  "RecordID": "N-005",
+                  "SuperCategory": "70 Nano・Micro kirigami / ナノ・マイクロ",
+                  "FamilyID": "F-NAN",
+                  "Family": "Nano / micro kirigami系",
+                  "BasePattern": "Carbon nanotube",
+                  "VariantName": "Carbon nanotube kirigami / カーボンナノチューブ切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Tubular variant",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "ナノチューブkirigami",
+                  "Function": "nanoscale deformation control",
+                  "Application": "ナノ材料",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S12",
+                  "HierarchyPath": "70 Nano・Micro kirigami / ナノ・マイクロ > Nano / micro kirigami系 > Carbon nanotube > Carbon nanotube kirigami / カーボンナノチューブ切り紙",
+                  "OldFamily": "Nano tube系",
+                  "OldSortGroup": "Nano / micro kirigami / ナノ・マイクロ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90 Electronics・Sensing / 電子・センシング",
+      "families": [
+        {
+          "family_id": "F-ELK",
+          "family": "Electromagnetic kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "MXene kirigami",
+              "variants": [
+                {
+                  "RecordID": "E-001",
+                  "SuperCategory": "90 Electronics・Sensing / 電子・センシング",
+                  "FamilyID": "F-ELK",
+                  "Family": "Electromagnetic kirigami系",
+                  "BasePattern": "MXene kirigami",
+                  "VariantName": "Kirigami split ring resonator array / 切り紙SRRアレイ",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Array / configuration",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "共振器アレイ",
+                  "Function": "unit displacementで電磁特性変化",
+                  "Application": "beam steering・strain sensor",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S17",
+                  "HierarchyPath": "90 Electronics・Sensing / 電子・センシング > Electromagnetic kirigami系 > MXene kirigami > Kirigami split ring resonator array / 切り紙SRRアレイ",
+                  "OldFamily": "Electromagnetic kirigami系",
+                  "OldSortGroup": "Electronics & sensing / 電子・センサー"
+                },
+                {
+                  "RecordID": "E-002",
+                  "SuperCategory": "90 Electronics・Sensing / 電子・センシング",
+                  "FamilyID": "F-ELK",
+                  "Family": "Electromagnetic kirigami系",
+                  "BasePattern": "MXene kirigami",
+                  "VariantName": "MXene-patterned kirigami resonant surface / MXeneパターン切り紙共振表面",
+                  "EntryLayer": "4 Functional implementation / 機能実装",
+                  "VariantType": "Electronic / sensing implementation",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "電磁kirigami",
+                  "Function": "strainでmicrowave response調整",
+                  "Application": "wireless communication・RIS",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Application / implementation sheet",
+                  "SourceKey": "S17",
+                  "HierarchyPath": "90 Electronics・Sensing / 電子・センシング > Electromagnetic kirigami系 > MXene kirigami > MXene-patterned kirigami resonant surface / MXeneパターン切り紙共振表面",
+                  "OldFamily": "Electromagnetic kirigami系",
+                  "OldSortGroup": "Electronics & sensing / 電子・センサー"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "100 Computational・Generated / 計算生成",
+      "families": [
+        {
+          "family_id": "F-CGK",
+          "family": "Computational / generated kirigami系",
+          "base_patterns": [
+            {
+              "base_pattern": "Freeform kirigami",
+              "variants": [
+                {
+                  "RecordID": "C-001",
+                  "SuperCategory": "100 Computational・Generated / 計算生成",
+                  "FamilyID": "F-CGK",
+                  "Family": "Computational / generated kirigami系",
+                  "BasePattern": "Freeform kirigami",
+                  "VariantName": "NURBS freeform cut kirigami / NURBS自由曲線カット切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Generated / optimized pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "自由曲線カット",
+                  "Function": "NURBSでcut centerline生成",
+                  "Application": "最適化設計",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S20",
+                  "HierarchyPath": "100 Computational・Generated / 計算生成 > Computational / generated kirigami系 > Freeform kirigami > NURBS freeform cut kirigami / NURBS自由曲線カット切り紙",
+                  "OldFamily": "Optimization系",
+                  "OldSortGroup": "Computational/generated / 計算生成"
+                }
+              ]
+            },
+            {
+              "base_pattern": "Generated kirigami",
+              "variants": [
+                {
+                  "RecordID": "C-002",
+                  "SuperCategory": "100 Computational・Generated / 計算生成",
+                  "FamilyID": "F-CGK",
+                  "Family": "Computational / generated kirigami系",
+                  "BasePattern": "Generated kirigami",
+                  "VariantName": "Optimized negative-Poisson’s-ratio kirigami / 最適化負ポアソン比切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Generated / optimized pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "auxetic kirigami",
+                  "Function": "目標Poisson比へ最適化",
+                  "Application": "shock absorption",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S20",
+                  "HierarchyPath": "100 Computational・Generated / 計算生成 > Computational / generated kirigami系 > Generated kirigami > Optimized negative-Poisson’s-ratio kirigami / 最適化負ポアソン比切り紙",
+                  "OldFamily": "Auxetic kirigami系",
+                  "OldSortGroup": "Computational/generated / 計算生成"
+                },
+                {
+                  "RecordID": "C-003",
+                  "SuperCategory": "100 Computational・Generated / 計算生成",
+                  "FamilyID": "F-CGK",
+                  "Family": "Computational / generated kirigami系",
+                  "BasePattern": "Generated kirigami",
+                  "VariantName": "Out-of-plane buckling kirigami metamaterial / 面外座屈切り紙メタマテリアル",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Generated / optimized pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "座屈利用型",
+                  "Function": "bucklingを性能設計要素化",
+                  "Application": "高伸縮材料",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S20",
+                  "HierarchyPath": "100 Computational・Generated / 計算生成 > Computational / generated kirigami系 > Generated kirigami > Out-of-plane buckling kirigami metamaterial / 面外座屈切り紙メタマテリアル",
+                  "OldFamily": "Buckling kirigami系",
+                  "OldSortGroup": "Computational/generated / 計算生成"
+                },
+                {
+                  "RecordID": "C-004",
+                  "SuperCategory": "100 Computational・Generated / 計算生成",
+                  "FamilyID": "F-CGK",
+                  "Family": "Computational / generated kirigami系",
+                  "BasePattern": "Generated kirigami",
+                  "VariantName": "Stretch-tunable flip-angle kirigami array / 伸縮制御フリップ角切り紙アレイ",
+                  "EntryLayer": "3 Structural unit / 構造ユニット",
+                  "VariantType": "Array / configuration",
+                  "IsRealPattern": "Partial",
+                  "GeometryType": "角度制御kirigami",
+                  "Function": "引張でflip angle制御",
+                  "Application": "optical/adaptive surface",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Structural units sheet",
+                  "SourceKey": "S20",
+                  "HierarchyPath": "100 Computational・Generated / 計算生成 > Computational / generated kirigami系 > Generated kirigami > Stretch-tunable flip-angle kirigami array / 伸縮制御フリップ角切り紙アレイ",
+                  "OldFamily": "Flip angle系",
+                  "OldSortGroup": "Computational/generated / 計算生成"
+                }
+              ]
+            },
+            {
+              "base_pattern": "Algorithmic kirigami",
+              "variants": [
+                {
+                  "RecordID": "C-005",
+                  "SuperCategory": "100 Computational・Generated / 計算生成",
+                  "FamilyID": "F-CGK",
+                  "Family": "Computational / generated kirigami系",
+                  "BasePattern": "Algorithmic kirigami",
+                  "VariantName": "Algorithmically optimized kirigami geometry / アルゴリズム最適化切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Generated / optimized pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "最適化kirigami",
+                  "Function": "目標形状から計算生成",
+                  "Application": "AI設計支援",
+                  "Priority": 1,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S21",
+                  "HierarchyPath": "100 Computational・Generated / 計算生成 > Computational / generated kirigami系 > Algorithmic kirigami > Algorithmically optimized kirigami geometry / アルゴリズム最適化切り紙",
+                  "OldFamily": "Algorithmic kirigami系",
+                  "OldSortGroup": "Computational/generated / 計算生成"
+                },
+                {
+                  "RecordID": "C-006",
+                  "SuperCategory": "100 Computational・Generated / 計算生成",
+                  "FamilyID": "F-CGK",
+                  "Family": "Computational / generated kirigami系",
+                  "BasePattern": "Algorithmic kirigami",
+                  "VariantName": "Hierarchical kirigami sheet / 階層型切り紙シート",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Generated / optimized pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "階層kirigami",
+                  "Function": "buckling unit階層配置",
+                  "Application": "adaptive display",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S21",
+                  "HierarchyPath": "100 Computational・Generated / 計算生成 > Computational / generated kirigami系 > Algorithmic kirigami > Hierarchical kirigami sheet / 階層型切り紙シート",
+                  "OldFamily": "Hierarchical kirigami系",
+                  "OldSortGroup": "Computational/generated / 計算生成"
+                },
+                {
+                  "RecordID": "C-007",
+                  "SuperCategory": "100 Computational・Generated / 計算生成",
+                  "FamilyID": "F-CGK",
+                  "Family": "Computational / generated kirigami系",
+                  "BasePattern": "Algorithmic kirigami",
+                  "VariantName": "Louvres kirigami pattern / ルーバー型切り紙",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Generated / optimized pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "座屈誘導kirigami",
+                  "Function": "local bending方向制御",
+                  "Application": "morphing surface",
+                  "Priority": 2,
+                  "UseInMainThesis": "Yes",
+                  "ThesisRole": "Main pattern table",
+                  "SourceKey": "S21",
+                  "HierarchyPath": "100 Computational・Generated / 計算生成 > Computational / generated kirigami系 > Algorithmic kirigami > Louvres kirigami pattern / ルーバー型切り紙",
+                  "OldFamily": "Louvres系",
+                  "OldSortGroup": "Computational/generated / 計算生成"
+                },
+                {
+                  "RecordID": "C-008",
+                  "SuperCategory": "100 Computational・Generated / 計算生成",
+                  "FamilyID": "F-CGK",
+                  "Family": "Computational / generated kirigami系",
+                  "BasePattern": "Algorithmic kirigami",
+                  "VariantName": "Aerodynamically driven kirigami sheet / 空力駆動切り紙シート",
+                  "EntryLayer": "2 Pattern variant / 派生パターン",
+                  "VariantType": "Generated / optimized pattern",
+                  "IsRealPattern": "Yes",
+                  "GeometryType": "空力駆動kirigami",
+                  "Function": "空気流で形状変化",
+                  "Application": "空力アクチュエータ",
+                  "Priority": 3,
+                  "UseInMainThesis": "No",
+                  "ThesisRole": "Extended pattern table",
+                  "SourceKey": "S21",
+                  "HierarchyPath": "100 Computational・Generated / 計算生成 > Computational / generated kirigami系 > Algorithmic kirigami > Aerodynamically driven kirigami sheet / 空力駆動切り紙シート",
+                  "OldFamily": "Aerodynamic kirigami系",
+                  "OldSortGroup": "Computational/generated / 計算生成"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
